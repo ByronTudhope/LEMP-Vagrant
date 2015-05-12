@@ -117,12 +117,14 @@ echo "Configuring Nginx"
 
 rm -rf /etc/nginx/sites-available/default
 rm -rf /etc/nginx/sites-enabled/default
+rm -rf /etc/nginx/nginx.conf
 
 cp /vagrant/nginx/default /etc/nginx/sites-enabled/
 cp /vagrant/nginx/default /etc/nginx/sites-available/
 
 rm -rf /etc/nginx/fastcgi_params
 cp /vagrant/nginx/fastcgi_params /etc/nginx/
+cp /vagrant/nginx/nginx.conf /etc/nginx/
 
 echo "Restarting nginx"
 service apache2 stop > /dev/null 2>&1
