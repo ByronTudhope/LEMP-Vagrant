@@ -113,6 +113,10 @@ php5enmod mcrypt > /dev/null 2>&1
 service php5-fpm start > /dev/null 2>&1
 service php5-fpm restart > /dev/null 2>&1
 
+echo "Installing Composer"
+curl -sS https://getcomposer.org/installer | php > /dev/null 2>&1
+mv composer.phar /usr/local/bin/composer > /dev/null 2>&1
+
 echo "Configuring Nginx"
 
 rm -rf /etc/nginx/sites-available/default
