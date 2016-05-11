@@ -15,4 +15,4 @@ This should work on all host operating systems and runs Ubuntu 14.04 LTS as gues
 7. Browse to http://{folder-name}.vagrant to run each project
 8. Browse to [http://phpmyadmin.vagrant](http://phpmyadmin.vagrant) to access PHPMyAdmin (U:root P:[blank])
 
-I hope you like this, please contact me at [techcapetown.wordpress.com](https://techcapetown.wordpress.com) or [@thelifeofbyron](https://twitter.com/thelifeofbyron) if you have any comments.
+I hope you like this, please contact me at [techcapetown.co.za](https://techcapetown.co.za) or [@thelifeofbyron](https://twitter.com/thelifeofbyron) if you have any comments.
